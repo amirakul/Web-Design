@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Latitude Weather Analysis</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Latitude</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="maxtemp.html">Temperature</a>
+                            </li>
+                            <li>
+                                <a href="humidity.html">Humidity</a>
+                            </li>
+                            <li>
+                                <a href="cloudiness.html">Cloudiness</a>
+                            </li>
+                            <li>
+                                <a href="windspeed.html">Wind Speed</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="comparison.html">Comparison</a>
+                    </li>
+                    <li>
+                        <a href="data.html">Data</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <div class="row">
+		<div class="row">
+            <div class="col-md-7">
+                <div class="page-header">
+                    <h1>
+                        Summary: Latitude vs. X
+                    </h1>
+                </div><img alt="Bootstrap Image Preview" style="float:left; width:400px; height:400px;" src="images/Fig1.png" class="rounded" />
+                <p>
+                    Latitude is the measurement of the distance of a location on the Earth from the equator. From the Latitude vs Temperature chart, we can tell latitude is one of the main factors affecting temperature. The cities located between latitude from -20 to 20 have the highest temperatures. The further away from the equator the city temperature is lower. The northern temperature ranges are greater than the southern ranges at corresponding latitudes. The relative difference in the northern and southern hemispheres is greatest around 60° latitude where the southern hemisphere has almost no land. In general, places at high latitudes are colder than places at low latitudes.
+                </p>
+            </div>
+            <div class="col-md-5">
+                <h3>
+                    Visualizations
+                </h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="maxtemp.html"> <img alt="Bootstrap Image Preview" style="width:250px; height:250px;" src="images/Fig1.png"></a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="humidity.html"> <img alt="Bootstrap Image Preview" style="width:250px; height:250px;" src="images/Fig2.png"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="cloudiness.html"> <img alt="Bootstrap Image Preview" style="width:250px; height:250px;" src="images/Fig3.png"></a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="windspeed.html"> <img alt="Bootstrap Image Preview" style="width:250px; height:250px;" src="images/Fig4.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous">
+        </script>
+</body>
+</html>
