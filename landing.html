@@ -57,54 +57,57 @@
 
         </div>
     </nav>
-    <div class="row">
+
+    <div class="container">
 		<div class="row">
             <div class="col-md-7">
-                <div class="page-header">
-                    <h1>
-                        Summary: Latitude vs. X
-                    </h1>
-                </div><img alt="Bootstrap Image Preview" style="float:left; width:400px; height:400px;" src="images/Fig1.png" class="rounded" />
-                <p> In this project, we utilized Python, and OpenWeatherMap API to answer a fundamental question:
-                    “What’s the weather like as we get closer to the equator?”
-                </p>
+                <div class="box box-left">
+                    <div class="page-header">
+                         <h1>
+                            Summary: Latitude vs. X
+                        </h1>
+                    </div>
 
-                <p> Assigning random Latitude and Longitudes, I utilized the Python CitiPy library to find
-                    the city closest to the Lat/Lon (dropping all duplicates) to get a listing of over 500 cities.
-                    I utilized OpenWeatherMapAPI to get the weather for the cities
-                    to create a dataframe of weather information for over 500 cities.
-                </p>
+                    <img alt="Bootstrap Image Preview" style="float:left; width:350px;" src="images/Fig1.png" class="rounded" />
+                    <p> In this project, we utilized Python, and OpenWeatherMap API to answer a fundamental question:
+                        “What’s the weather like as we get closer to the equator?”
+                    </p>
 
-                <p>
-                    The dataframe is saved to CSV and the data is analyzed. To showcase the relationship between latitude and temperature/humidity/cloudiness/wind
-                    speed I utilized MatplotLib scatter plots to view:
-                </p>
+                    <p> Assigning random Latitude and Longitudes, I utilized the Python CitiPy library to find
+                        the city closest to the Lat/Lon (dropping all duplicates) to get a listing of over 500 cities.
+                        I utilized OpenWeatherMapAPI to get the weather for the cities
+                        to create a dataframe of weather information for over 500 cities.
+                    </p>
 
-                <ul>
-                <li>Temperature (F) vs. Latitude</li>
-                <li>Humidity (%) vs. Latitude</li>
-                <li>Cloudiness (%) vs. Latitude</li>
-                <li>Wind Speed (mph) vs. Latitude</li>
-                </ul>
+                    <p>
+                         The dataframe is saved to CSV and the data is analyzed. To showcase the relationship between latitude and temperature/humidity/cloudiness/wind
+                        speed I utilized MatplotLib scatter plots to view:
+                    </p>
+
+                    <ul>
+                        <li>Temperature (F) vs. Latitude</li>
+                        <li>Humidity (%) vs. Latitude</li>
+                         <li>Cloudiness (%) vs. Latitude</li>
+                         <li>Wind Speed (mph) vs. Latitude</li>
+                     </ul>
+                </div>
             </div>
-            <div class="col-md-4">
-                <div class="box box-right">
+            <div class="col-md-5 box-right">
                     <h2>Visualizations</h2>
                     <hr>
                 <div class="row">
-                    <div class="col-md-6">
-                        <a href="maxtemp.html"> <img alt="Bootstrap Image Preview" style="width:250px; height:250px;" src="images/Fig1.png"></a>
+                    <div class="col-md-6 col-sm-3">
+                        <a href="maxtemp.html"> <img alt="Bootstrap Image Preview" style="width:10vw;" src="images/Fig1.png"></a>
                     </div>
-                    <div class="col-md-6">
-                        <a href="humidity.html"> <img alt="Bootstrap Image Preview" style="width:250px; height:250px;" src="images/Fig2.png"></a>
+                    <div class="col-md-6 col-sm-3">
+                        <a href="humidity.html"> <img alt="Bootstrap Image Preview" style="width:10vw;" src="images/Fig2.png"></a>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <a href="cloudiness.html"> <img alt="Bootstrap Image Preview" style="width:250px; height:250px;" src="images/Fig3.png"></a>
+
+                    <div class="col-md-6 col-sm-3">
+                        <a href="cloudiness.html"> <img alt="Bootstrap Image Preview" style="width:10vw;" src="images/Fig3.png"></a>
                     </div>
-                    <div class="col-md-6">
-                        <a href="windspeed.html"> <img alt="Bootstrap Image Preview" style="width:250px; height:250px;" src="images/Fig4.png"></a>
+                    <div class="col-md-6 col-sm-3">
+                        <a href="windspeed.html"> <img alt="Bootstrap Image Preview" style="width:10vw;" src="images/Fig4.png"></a>
                     </div>
                 </div>
             </div>

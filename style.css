@@ -1,0 +1,136 @@
+.navbar-default .navbar-brand {
+    color: #ffffff;
+    background-color: rgb(75, 184, 150);
+    font-family:  'Arial', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.navbar-header{
+    width:400px;
+    margin-left:35px !important;
+}
+
+
+.navbar-header .navbar-toggle .collapsed {
+  float: right;
+}
+
+.content{
+    margin-top:100px;
+}
+body {
+    background-color: #f7f7f7;
+  }
+
+
+
+img {
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    clear:both;
+}
+p {
+    margin-left: 30px;
+    color: black;
+
+}
+ul {
+    color: black;
+}
+h1 {
+    color: rgb(75, 184, 150);
+    margin-left: 30px;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+  }
+h2 {
+    color: rgb(75, 184, 150);
+    margin-left: 30px;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+  }
+h3 {
+    color: rgb(75, 184, 150);
+    margin-left: 30px;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    font-size: 25px;
+  }
+
+h4 {
+    color: rgb(75, 184, 150);
+    margin-left: 30px;
+    text-align: left;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+  }
+
+#data {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border: none;
+    width: 90%;
+    margin-left:20px;
+  }
+
+#data td {
+    border: 0.2px solid #ddd;
+    padding: 5px;
+  }
+
+#data th {
+    border: 0px solid #ddd;
+    padding: 5px;
+  }
+
+#data tr:nth-child(even){background-color: #f2f2f2;}
+
+#data tr:hover {background-color: #ddd;}
+
+#data th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: white;
+    color: black;
+  }
+
+.box {
+  color: rgb(75, 184, 150);
+  background: white;
+
+}
+
+.box-left {
+  padding: 20px;
+  background: white;
+  height:80vh;
+
+}
+
+.box-right {
+  padding: 40px;
+  background: white;
+  height:60vh;
+
+}
+
+.box-single {
+    padding: 40px;
+    background: white;
+    margin-right: 180px;
+    margin-left: 180px;
+    margin-top: 50px;
+    margin-bottom: 180px;
+
+  }
+
+
+
+
+
