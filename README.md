@@ -38,6 +38,9 @@ Here's a screen shot of how summary pages look like for each of the 4 graphs:
     * The table must be a bootstrap table component. [Hint](https://getbootstrap.com/docs/4.3/content/tables/#responsive-tables)
     * The data must come from exporting the `.csv` file as HTML, or converting it to HTML. Try using a tool you already know, pandas. Pandas has a nifty method approprately called `to_html` that allows you to generate a HTML table from a pandas dataframe. See the documentation [here](https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.to_html.html)
 
+This how the data table looks like on page:
+![data](images/data.png)
+
 The website must, at the top of every page, have a navigation menu that:
 
 * Has the name of the site on the left of the nav which allows users to return to the landing page from any page.
