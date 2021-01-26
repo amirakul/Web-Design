@@ -9,17 +9,22 @@ In building this dashboard, I created individual pages for each plot and a means
 Website Requirements
 For reference, see the "Screenshots" section below.
 
-## The website must consist of 7 pages total, including:
+## The website consists of 7 pages in total, including:
 
-The website must consist of 7 pages total, including:
 
 * A [landing page](#landing-page) containing:
   * An explanation of the project.
   * Links to each visualizations page. There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
+  
+Here's a screen shot of how landing page looks like:
+ ![landing_page](images/landing_page.png)
+ 
 * Four [visualization pages](#visualization-pages), each with:
   * A descriptive title and heading tag.
   * The plot/visualization itself for the selected comparison.
   * A paragraph describing the plot and its significance.
+Here's a screen shot of how summary pages look like for each of the 4 graphs:
+![summary1](images/summary1.png)
 * A ["Comparisons" page](#comparisons-page) that:
   * Contains all of the visualizations on the same page so we can easily visually compare them.
   * Uses a Bootstrap grid for the visualizations.
@@ -35,12 +40,8 @@ The website must, at the top of every page, have a navigation menu that:
 * Contains a dropdown menu on the right of the navbar named "Plots" that provides a link to each individual visualization page.
 * Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.
 * Is responsive (using media queries). The nav must have similar behavior as the screenshots ["Navigation Menu" section](#navigation-menu) (notice the background color change).
+ 
 
-Finally, the website must be deployed to GitHub pages.
-
-When finished, submit to BootcampSpot the links to 1) the deployed app and 2) the GitHub repository.
-
-Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
 
 ## Considerations
 You may use the weather data or choose another dataset. Alternatively, you may use the included cities dataset and pull the images from the assets folder.
