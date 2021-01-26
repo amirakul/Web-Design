@@ -25,6 +25,9 @@ Here's a screen shot of how landing page looks like:
   * A paragraph describing the plot and its significance.
 Here's a screen shot of how summary pages look like for each of the 4 graphs:
 ![summary1](images/summary1.png)
+![summary2](images/summary2.png)
+
+
 * A ["Comparisons" page](#comparisons-page) that:
   * Contains all of the visualizations on the same page so we can easily visually compare them.
   * Uses a Bootstrap grid for the visualizations.
